@@ -44,8 +44,9 @@ public class CartController {
         return ResponseEntity.ok(cartItem);
     }
 
-    @PutMapping("/update-cart-item")
+    @PutMapping("/update-cart-item/{id}")
     public ResponseEntity<?> updateCartItem(@RequestBody CartItemDTO body){
+        
         return null; // TODO
     }
 

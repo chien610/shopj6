@@ -4,7 +4,6 @@ import com.example.shop.entity.Product;
 import com.example.shop.repo.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 @CrossOrigin("*")
